@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.content-wrapper {
+    max-width: 800px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 400px;
+    border: 1px solid black;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+form * {
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: 1rem;
+}
+
+button {
+    padding: .5rem;
+    margin-bottom: 0;
+}
+
+#customers {
+    margin-top: 2rem;
+    border: 1px solid black;
+    width: 95%;
+    min-height: 50vh;
+    padding: 1rem;
+}
+
+li {
+    list-style-type: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+li:nth-child(even) {
+    background-color: lightgrey;
+}
+
+li button {
+    padding: 0.5rem;
+}
